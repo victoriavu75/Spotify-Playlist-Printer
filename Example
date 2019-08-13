@@ -1,0 +1,12 @@
+Client ID 14d787498f1842b793b3e63b5e542942
+Client Secret 4b0f7ab8fa10487e961891324426619f
+
+playlist-read-private
+
+https://accounts.spotify.com/authorize?client_id=14d787498f1842b793b3e63b5e542942&scopes=playlist-read-private&response_type=code&redirect_uri=https%3A%2F%2Fvictoriavu.000webhostapp.com%2F
+
+
+curl -H "Authorization: Basic MTRkNzg3NDk4ZjE4NDJiNzkzYjNlNjNiNWU1NDI5NDI6NGIwZjdhYjhmYTEwNDg3ZTk2MTg5MTMyNDQyNjYxOWY=" -d grant_type=authorization_code -d code=AQAm6e3zVMvc7mzggy0A9EPEzpQoZfTXXMTp64PS6W5DxdyYufTnAR60HvtzMDPYwBZ5073O2D4Z_sNS1bVfhEqezXljp7xxi94UpPs5hIhRYCIQqS8Qw8vTTw_PfScsArckfhTu9C8ZAi8O3KKUc3_MeNiwRulXFUUHoAoUqVnnzXMS0x3U3R83FzxwbLnZjJy7cbB9eiyQGH5aOw -d redirect_uri=https%3A%2F%2Fvictoriavu.000webhostapp.com%2F https://accounts.spotify.com/api/token
+
+
+{"access_token":"BQBKf_Goqd3X4tz1tGAPwJB_Pr4_E7_fdBmZJVv4vLP9BPBucin5qhaoiBMesZIQ-p4N-V4ULp4PqIAyxGzZmRMOqxHAZBBlWB1HAe-FvngN_uRUFaAG4aYIpyazYh31UFSCz5xODwoK","token_type":"Bearer","expires_in":3600,"refresh_token":"AQBFtwgB3yy7S9xNgkOA1Zj2bE0RaA1OMkOFzbR-b4L70ZJpFgsc5mJ-abINiOQ6_S9P0jKA03KrjcU2fO2WLDkEJS_Df8_D67qiGRD7pNvRB18DCVtS-IU-A6HGcuE8Y7GrVA","scope":""}
